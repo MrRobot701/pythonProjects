@@ -17,3 +17,12 @@ venv/
 # Test/binary artifacts
 *.exe
 *.doc
+
+# Some histories contain a nested 'algorithms/' directory
+/algorithms/__pycache__/
+/algorithms/**/__pycache__/
+
+# Common Python build/test dirs
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
