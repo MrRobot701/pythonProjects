@@ -1,2 +1,19 @@
-.*
-!.gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+
+# macOS
+.DS_Store
+
+# IDEs
+.idea/
+*.iml
+
+# Test/binary artifacts
+*.exe
+*.doc
