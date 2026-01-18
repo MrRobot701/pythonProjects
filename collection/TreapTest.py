@@ -1,0 +1,25 @@
+from collection.heap.Treap import Treap, RandomizedTreap
+
+t = Treap()
+t.insert("a", 0)
+t.insert("b", 1)
+t.insert("c", 2)
+t.insert("d", 5)
+t.insert("f", -1)
+t.insert("g", -2)
+t.insert("h", 4)
+t.insert("l", 6)
+t.insert("i", 5)
+t.insert("k", 10)
+
+t.remove("g", True)
+print(t)
+
+rt = RandomizedTreap()
+rt.insert("a")
+rt.insert("b")
+rt.insert("c")
+rt.insert("x")
+rt.insert("f")
+rt.insert("z")
+print(rt)
